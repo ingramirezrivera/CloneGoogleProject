@@ -307,3 +307,142 @@ footer .footer-down {
 }
  */
  
+ /* @media (min-width: 1024px) {
+    .nav-mobile {
+        display: none;
+    }
+    header {
+        width: 100%;
+        height: 60px;
+    }
+    header .nav-desktop {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    header .nav-desktop .nav-right-section{ 
+        width: 250px;
+        height: auto;
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+    }
+    .nav-right-section {
+        align-items: center;
+    }
+    .nav-right-section a {
+        margin-right: 10px;
+        color: #000000;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+    .nav-right-section .nav-icon-menu {
+        background-image: url('https://static.thenounproject.com/png/756729-200.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-right: 10px;
+        width: 25px;
+        height: 25px;
+    }
+    .nav-right-section img {
+        border-radius: 50%;
+        border: 3px solid green;
+    }
+    .main-desktop {
+        width: 1024px;
+        min-width: 1024px;
+        margin-top: 190px;
+        text-align: center;
+        
+    }
+    .main-desktop .main-logo img {
+        margin: 0 auto;
+        width: 280px;
+        min-width: 280px;
+        margin-bottom: 25px;
+    }
+    .main-desktop .main-input {
+        width: 680px;
+        min-width: 680px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    .main-desktop .main-input-container {
+        display: flex;
+        margin: 0 auto;
+        width: 580px;
+        min-width: 580px;
+        height: auto;
+        border-radius: 100px;
+        border: 2px solid #e2e4e7;
+    }
+    .main-desktop .main-input input {
+        width: 497px;
+        min-width: 497px;
+        height: 40px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        font-size: 1.8rem;
+    }
+    .main-input-container .search-icon {
+        width: 22px;
+        height: 22px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+    }
+    .main-desktop .main-input .micro-icon {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+        width: 22px;
+        height: 22px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+    }
+    .main-desktop .main-input-container:hover {
+        box-shadow: 0 1px 6px 0 #20212447;
+        border-color: #dfe1e500;
+    }
+    .main-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+        width: 530px;
+    }
+    .main-buttons__button{
+        width: 165px;
+        height: 36px;
+        justify-content: center;
+        margin: 11px 4px;
+        padding: 0 16px;
+        background-color: #f8f9fa;
+        color: #3c435b;
+        font-size: 1.4rem;
+        border: none;
+        border-radius: 6px;
+        margin-bottom: 32px;
+    }
+    .main-buttons__button:hover {
+        box-shadow: 0px 0px 0px 1px #20212447;
+    
+    }
+    .main-buttons__text-down {
+        font-size: 1.3rem;
+        font-weight: 300;
+        color: #3c435b;  
+    }
+    .main-buttons__text-down a {
+        color: #3f42bb;
+        text-decoration: none;
+    }
+ } */
