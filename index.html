@@ -5,11 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
+    
 <body>
     <header>
-        <nav>
+        <nav class="nav-mobile">
+            <ul class="nav-mobile-left">
+                <li class="nav-icon-menu__mobile--left">
+                    <a href=""></a>
+                </li>
+                <li class="nav-menu_mobile--border-blue active">
+                    <a href="">TODOS</a>
+                </li>
+                <li class="nav-menu_mobile--border-blue">
+                    <a  href="">IMÁGENES</a>
+                </li>
+            </ul>
+            <ul class="nav-mobile-right">
+                <li class="nav-icon-menu__mobile--right">
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="border-gradient" src="https://lh3.googleusercontent.com/ogw/ADea4I4EK_RzMp_AW8wW4_LDFoP7PhoMD_aVBdcJLWzAhw=s32-c-mo" alt="">
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        <nav class="nav-desktop">
             <ul class="nav-right-section">
                 <li>
                     <a href="">Gmail</a>
@@ -28,7 +54,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main-desktop">
         <section class="main-logo">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
         </section>
@@ -54,6 +80,22 @@
         </section>
     </main>
     <footer>
+        <div class="footer-mobile">
+            <ul class="footer-mobile-top"> 
+                <li><a href="">Tema oscuro: Desactivado</a></li>
+                <li><a href="">Preferencias</a></li>
+            </ul>
+            <ul class="footer-mobile-mid">
+                <li><a href="">Privacidad</a></li>
+                <li><a href="">Condiciones</a></li>
+            </ul>
+            <ul class="footer-mobile-bottom">
+                <li><a href="">Publicidad</a></li>
+                <li><a href="">Negocios</a></li>
+                <li><a href="">Sobre Google</a></li>
+            </ul>
+        </div>
+
         <div class="footer-up">
             <p>Colombia</p>
         </div>    
